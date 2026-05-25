@@ -1,0 +1,7 @@
+name: searxng
+version: "1.0.0"
+description: "SearXNG metasearch — privacy-respecting web, news, image, and code search"
+requires_env:
+  - name: SEARXNG_URL
+    description: "SearXNG instance URL (default: http://localhost:9000)"
+    secret: false
